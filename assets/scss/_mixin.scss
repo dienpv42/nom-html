@@ -1,3 +1,11 @@
-@mixin SFProDisplay(){
-    font-family: "SFProDisplay", sans-serif;
+@mixin Sarabun(){
+    font-family: $Inter;
+}
+@mixin Inter(){
+    font-family: $Sarabun;
+}
+@mixin text-style($fs, $lh, $cl){
+    font-size: $fs;
+    line-height: $lh;
+    color: $cl;
 }

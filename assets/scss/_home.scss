@@ -1,0 +1,49 @@
+.bl_home{
+    @include Sarabun();
+    @include text-style(14px, 1, $color-1);
+    .section_banner {
+        min-height: 34.844vw;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        &::before {
+            content: "";
+            background-color: $bg-transparent-1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            bottom: 0;
+            right: 0;
+            z-index: 1;
+        }
+        .wrap-logo {
+            position: absolute;
+            bottom: 1vw;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+            width: 180px;
+            img{
+                width: 100%;
+            }
+            h1{
+                display:none;
+            }
+        }
+    }
+    .section_header{
+        padding: 20px 0;
+        .main_menu{
+            ul{
+                li{
+                    padding: 0 20px;
+                    @include text-style(20px, 1, $color-1);
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    
+}

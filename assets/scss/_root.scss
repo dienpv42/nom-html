@@ -1,0 +1,12 @@
+a{  
+    color: $color-1;
+    text-decoration: none;
+    &:hover{
+        color: $color-2;
+        text-decoration: none;
+    }
+    &:focus{
+        color: $color-2;
+        text-decoration: none;
+    }
+}
