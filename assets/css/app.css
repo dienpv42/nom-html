@@ -77,17 +77,21 @@ a {
     color: #888888;
     text-decoration: none; }
 
+.section-padding {
+  padding: 50px 0 50px 0; }
+
 .bl_home {
-  font-family: "Inter", sans-serif;
+  font-family: "Sarabun", sans-serif;
   font-size: 14px;
   line-height: 1;
   color: #333333; }
-  .bl_home .section_banner {
+  .bl_home .bl_header .section_banner {
     min-height: 34.844vw;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: relative; }
-    .bl_home .section_banner::before {
+    background-size: 100%;
+    position: relative;
+    background-attachment: fixed; }
+    .bl_home .bl_header .section_banner::before {
       content: "";
       background-color: #3333334d;
       position: absolute;
@@ -97,23 +101,87 @@ a {
       bottom: 0;
       right: 0;
       z-index: 1; }
-    .bl_home .section_banner .wrap-logo {
+    .bl_home .bl_header .section_banner .wrap-logo {
       position: absolute;
       bottom: 1vw;
       left: 50%;
       transform: translateX(-50%);
       z-index: 1;
       width: 180px; }
-      .bl_home .section_banner .wrap-logo img {
+      .bl_home .bl_header .section_banner .wrap-logo img {
         width: 100%; }
-      .bl_home .section_banner .wrap-logo h1 {
+      .bl_home .bl_header .section_banner .wrap-logo h1 {
         display: none; }
-  .bl_home .section_header {
+  .bl_home .bl_header .wrap_menu {
     padding: 20px 0; }
-    .bl_home .section_header .main_menu ul li {
+    .bl_home .bl_header .wrap_menu .main_menu ul li {
       padding: 0 20px;
-      font-size: 20px;
+      font-size: 17px;
       line-height: 1;
       color: #333333;
       font-weight: 500;
       text-transform: uppercase; }
+    .bl_home .bl_header .wrap_menu.active {
+      position: fixed;
+      z-index: 11;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background-color: #EEEEEE;
+      box-shadow: 0 8px 6px -6px #3333335c; }
+  .bl_home .bl_main {
+    padding: 60px 0; }
+    .bl_home .bl_main .section_product .product_item_home .thumb {
+      width: 100%; }
+    .bl_home .bl_main .section_product .product_item_home .content {
+      padding: 25px 0; }
+      .bl_home .bl_main .section_product .product_item_home .content .title h2 {
+        font-size: 2rem;
+        line-height: 1;
+        color: #000000;
+        font-weight: 700; }
+      .bl_home .bl_main .section_product .product_item_home .content .type_size ul li {
+        margin: 0 5px; }
+        .bl_home .bl_main .section_product .product_item_home .content .type_size ul li .type_change {
+          display: block;
+          padding: 4px 8px;
+          border: 1px solid #333333; }
+          .bl_home .bl_main .section_product .product_item_home .content .type_size ul li .type_change.active {
+            background-color: #333333;
+            color: #EEEEEE; }
+      .bl_home .bl_main .section_product .product_item_home .content .price {
+        font-size: 18px;
+        line-height: 1;
+        color: #000000;
+        font-weight: 700;
+        text-transform: uppercase; }
+        .bl_home .bl_main .section_product .product_item_home .content .price span {
+          color: #be3a45;
+          margin-left: 5px; }
+      .bl_home .bl_main .section_product .product_item_home .content .description {
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #333333; }
+      .bl_home .bl_main .section_product .product_item_home .content .goto_buy a {
+        padding: 8px 16px;
+        margin: 0 5px;
+        border: 1px solid #333333; }
+        .bl_home .bl_main .section_product .product_item_home .content .goto_buy a:hover {
+          background-color: #333333;
+          color: #EEEEEE; }
+    .bl_home .bl_main .section_products_slider .item-product {
+      text-align: center; }
+      .bl_home .bl_main .section_products_slider .item-product .thumb img {
+        width: 100%; }
+    .bl_home .bl_main .section_products_slider .swiper-button {
+      display: none; }
+      .bl_home .bl_main .section_products_slider .swiper-button .swiper-button-next:after, .bl_home .bl_main .section_products_slider .swiper-button .swiper-button-prev:after {
+        color: #333333; }
+    .bl_home .bl_main .section_products_slider:hover .swiper-button {
+      display: block; }
+  .bl_home .bl_footer {
+    background-color: #333333; }
+    .bl_home .bl_footer .logo-footer {
+      text-align: center; }
+      .bl_home .bl_footer .logo-footer img {
+        width: 125px; }

@@ -21,94 +21,304 @@
     <link href="assets/css/swiper.min.css" rel="stylesheet" />
     <link href="assets/css/plugin-collection.css" rel="stylesheet" />
     <link href="assets/css/app.css" rel="stylesheet" />
+    <link href="assets/css/responsive.css" rel="stylesheet" />
 
 </head>
 <body>
     <div class="bl_home">
 
-        <!--== Banner ==-->
-        <div class="section_banner" data-image-src="assets/images/bg/bg-1.jpg">
-            <div class="wrap-logo">
-                <a href="#"><img src="assets/images/logo_white_300.png" alt="nom-logo"></a>
-                <h1>Nom</h1>
-            </div>
-        </div>
+        <header class="bl_header">
 
-        <div class="section_header">
+            <!--== Banner ==-->
+            <div class="section_banner" data-image-src="assets/images/bg/bg-1.jpg">
+                <div class="wrap-logo">
+                    <a href="#"><img src="assets/images/logo_white_300.png" alt="nom-logo"></a>
+                    <h1>Nom</h1>
+                </div>
+            </div>
+
+            <!--== Header menu ==-->
+            <div class="section_menu">
+                <div class="wrap_menu">
+                    <div class="container">
+                        <div class="main_menu">
+                            <ul class="d-flex flex-wrap justify-content-center">
+                                <li>
+                                    <a href="#">About us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Products</a>
+                                </li>
+                                <li>
+                                    <a href="#">Where to buy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Proteam</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        
+
+        <main class="bl_main">
+            <div class="section_product section-padding">
+                <div class="container">
+                    <div class="product_item_home">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-6">
+                                <div class="thumb" data-aos="fade-up" data-aos-duration="1100">
+                                    <img src="assets/images/product/pro_1.png" alt="" class="img-fluid" />
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="content text-center">
+                                    <div class="title mb-4" data-aos="fade-up" data-aos-duration="1100">
+                                        <h2>woo essential set</h2>
+                                    </div>
+                                    <div class="type_size mb-4" data-aos="fade-up" data-aos-duration="1100">
+                                        <ul class="d-flex flex-wrap justify-content-center">
+                                            <li>
+                                                <a href="#" class="type_change">5 ML</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="type_change active">50 ML</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="type_change">300 ML</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="price mb-5" data-aos="fade-up" data-aos-duration="1100">
+                                        $50.00 <span>($60 value)</span>
+                                    </div>
+                                    <div class="description mb-5"  data-aos="fade-up" data-aos-duration="1100">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    </div>
+    
+                                    <div class="goto_buy" data-aos="fade-up" data-aos-duration="1100">
+                                        <a href="#">BUY FORM DEALERS</a>
+                                        <a href="#">BUY FORM SHOPEE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="section_products_slider section-padding">
+                <div class="container-fluid">
+                    <div class="swiper-container product_swiper_home" data-aos="fade-up" data-aos-duration="1200">
+                        <div class="swiper-wrapper product-slider">
+                            <!-- item -->
+                            <div class="swiper-slide item-product">
+                                <div class="thumb mb-3">
+                                    <a href="#">
+                                        <img src="assets/images/product/pro_thumb_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category mb-2">
+                                        gift bundle 01/00/0 00
+                                    </div>
+                                    <div class="name mb-2">
+                                        <a href="#">
+                                            woo essentials set
+                                        </a>
+                                    </div>
+                                    <div class="price">
+                                        $50.00 <span>$60 value</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+                            <!-- item -->
+                            <div class="swiper-slide item-product">
+                                <div class="thumb">
+                                    <a href="#">
+                                        <img src="assets/images/product/pro_thumb_2.png" alt="">
+                                    </a> 
+                                </div>
+                                <div class="content">
+                                    <div class="category mb-2">
+                                        gift bundle 01/00/0 00
+                                    </div>
+                                    <div class="name mb-2">
+                                        <a href="#">
+                                            woo essentials set
+                                        </a>
+                                    </div>
+                                    <div class="price">
+                                        $50.00 <span>$60 value</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+                            <!-- item -->
+                            <div class="swiper-slide item-product">
+                                <div class="thumb">
+                                    <a href="#">
+                                        <img src="assets/images/product/pro_thumb_3.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category mb-2">
+                                        gift bundle 01/00/0 00
+                                    </div>
+                                    <div class="name mb-2">
+                                        <a href="#">
+                                            woo essentials set
+                                        </a>
+                                    </div>
+                                    <div class="price">
+                                        $50.00 <span>$60 value</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+                            <!-- item -->
+                            <div class="swiper-slide item-product">
+                                <div class="thumb">
+                                    <a href="#">
+                                        <img src="assets/images/product/pro_thumb_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category mb-2">
+                                        gift bundle 01/00/0 00
+                                    </div>
+                                    <div class="name mb-2">
+                                        <a href="#">
+                                            woo essentials set
+                                        </a>
+                                    </div>
+                                    <div class="price">
+                                        $50.00 <span>$60 value</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+                            <!-- item -->
+                            <div class="swiper-slide item-product">
+                                <div class="thumb">
+                                    <a href="#">
+                                        <img src="assets/images/product/pro_thumb_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category mb-2">
+                                        gift bundle 01/00/0 00
+                                    </div>
+                                    <div class="name mb-2">
+                                        <a href="#">
+                                            woo essentials set
+                                        </a>
+                                    </div>
+                                    <div class="price">
+                                        $50.00 <span>$60 value</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+                            <!-- item -->
+                            <div class="swiper-slide item-product">
+                                <div class="thumb">
+                                    <a href="#">
+                                        <img src="assets/images/product/pro_thumb_2.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category mb-2">
+                                        gift bundle 01/00/0 00
+                                    </div>
+                                    <div class="name mb-2">
+                                        <a href="#">
+                                            woo essentials set
+                                        </a>
+                                    </div>
+                                    <div class="price">
+                                        $50.00 <span>$60 value</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+                            <!-- item -->
+                            <div class="swiper-slide item-product">
+                                <div class="thumb">
+                                    <a href="#">
+                                        <img src="assets/images/product/pro_thumb_3.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category mb-2">
+                                        gift bundle 01/00/0 00
+                                    </div>
+                                    <div class="name mb-2">
+                                        <a href="#">
+                                            woo essentials set
+                                        </a>
+                                    </div>
+                                    <div class="price">
+                                        $50.00 <span>$60 value</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+                        </div>
+                        <div class="swiper-button">
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </main>
+        
+
+        <footer class="bl_footer section-padding">
             <div class="container">
-                <div class="main_menu">
-                    <ul class="d-flex flex-wrap justify-content-center">
+                <div class="logo-footer">
+                    <img src="assets/images/logo-footer-w.png" alt="">
+                </div>
+                <div class="social-media">
+                    <ul>
                         <li>
-                            <a href="#">About us</a>
+                            <a href="#"><i class="icofont-facebook"></i></a>
                         </li>
                         <li>
-                            <a href="#">Products</a>
+                            <a href="#"><i class="icofont-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-footer">
+                    <div class="copyright">
+                        © 2021.NOM.JSC
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                customer policy
+                            </a>
                         </li>
                         <li>
-                            <a href="#">Where to buy</a>
+                            <a href="#">
+                                become a partner
+                            </a>
                         </li>
                         <li>
-                            <a href="#">Proteam</a>
+                            <a href="#">
+                                contact
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
-        </div>
-
-        <div class="section_product">
-            <div class="container">
-                <div class="product_item_home">
-                    <div class="row">
-                        <div class="col-12 col-lg-6">
-                            <div class="avt">
-                                <img src="" alt="">
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-6">
-                            <div class="content">
-                                <div class="title">
-                                    <h2>Woo essential set</h2>
-                                </div>
-                                <div class="type_size">
-                                    <ul class="d-flex flex-wrap justify-content-center">
-                                        <li>
-                                            <a href="#" class="type_change">5 ML</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="type_change">50 ML</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="type_change">300 ML</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="price">
-                                    $50.00
-                                </div>
-                                <div class="description">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                </div>
-
-                                <div class="goto_buy">
-                                    <a href="#">BUY FORM DEALERS</a>
-                                    <a href="#">BUY FORM SHOPEE</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="section_products_slider">
-            <div class="swiper-container product_swiper_home">
-                <div class="swiper-wrapper product-slider">
-                    <div class="swiper-slide item-product">
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
+        </footer>
 
     </div>
 

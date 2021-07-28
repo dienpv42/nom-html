@@ -1,8 +1,8 @@
 @mixin Sarabun(){
-    font-family: $Inter;
+    font-family: $Sarabun;
 }
 @mixin Inter(){
-    font-family: $Sarabun;
+    font-family: $Inter;
 }
 @mixin text-style($fs, $lh, $cl){
     font-size: $fs;
