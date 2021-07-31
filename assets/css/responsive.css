@@ -1,12 +1,149 @@
 @media only screen and (max-width: 991px) {
-
+    .bl_home .bl_main .section_about .slider_story.slick-slider .slick-arrow, .bl_home .bl_main .section_about .slider_production.slick-slider .slick-arrow {
+        display: inline-block !important;
+    }
 }
 
 @media only screen and (max-width: 767px) {
+    .bl_home .bl_header .section_banner .wrap-logo {
+        width: 130px;
+    }
+    .bl_home .bl_header .wrap_menu{
+        padding: 3.5px 0;
+    }
+    .bl_home .bl_main {
+        padding: 25px 0;
+    }
+    .section-padding {
+        padding: 20px 0 20px 0;
+    }
+    .bl_home .bl_main .section_products_slider .swiper-button {
+        display: block;
+    }
+    .offcanvas {
+        z-index: 1000;
+        position: fixed;
+        background-color: #eeeeeef5;
+        top: 0;
+        bottom: 0;
+        width: 50%;
+        right: 0;
+        display: none;
+    }
     
+    .bl_home .bl_header .wrap_menu .main_menu ul {
+        position: absolute;
+        top: 40%;
+        width: 100%;
+        left: 0;
+        transform: translateY(-40%);
+    }
+    .bl_home .bl_header .wrap_menu .main_menu ul li {
+        padding: 7px 15px;
+    }
+    .offcanvas .mobile-menu-toggle {
+        padding: 4px 11px;
+    }
+    .bl_home .bl_header .wrap_menu .mobile-menu-toggle{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .bl_home .bl_main .section_product .product_item_home .content .title h2 {
+        font-size: 1.5rem;
+    }
+    .bl_home .bl_main .section_product .product_item_home.product_item_details .content .title h1 {
+        font-size: 1.5rem;
+    }
+    .bl_home .bl_main .section_product .product_item_home.product_item_details .content .des_size {
+        font-size: .9rem;
+    }
+    .bl_home .bl_main .section_product .product_item_home.product_item_details .content .price {
+        font-size: 1.2rem;
+    }
+
+
+    /* about */
+    .bl_home .bl_main .section_about .logo-about img {
+        width: 250px;
+    }
+    
+
+    /* proteam */
+    .bl_home .bl_main .section_proteam .description_proteam {
+        font-size: 1rem;
+    }
+    .bl_home .bl_main .section_proteam .proteam_all .item .content {
+        padding: 9px;
+    }
+    .bl_home .bl_main .section_proteam .proteam_all .item .content .title a {
+        font-size: 1rem;
+    }
+    .bl_home .bl_main .section_proteam .proteam_all .item .content .sub_title {
+        font-size: 0.6rem;
+        margin-bottom: 10px;
+    }
+    .bl_home .bl_main .section_proteam .proteam_all .item .content .social ul li a i {
+        font-size: .8rem;
+    }
+    .bl_home .bl_main .section_proteam .proteam_all .item .thumb:after {
+        opacity: 1;
+        visibility: visible;
+    }
+    .bl_home .bl_main .section_proteam .proteam_all .item .content {
+        opacity: 1;
+        visibility: visible;
+    }
+    .bl_home .bl_main .section_proteam .proteam_all .item .content .title {
+        margin-bottom: 5px;
+    }
+    .bl_home .bl_main .section_proteam_detail .section_desciption {
+        font-size: 1rem;
+    }
+    .bl_home .bl_main .section_proteam_detail .section_info .content .head .title h1 {
+        font-size: 1.8rem;
+    }
+
+    /* become */
+    .bl_home .bl_main .section_become .section_desciption,.bl_home .bl_main .section_become .section_we_belive .content {
+        font-size: 1rem;
+    }
+    .bl_home .bl_main .section_become .section_we_belive .title {
+        font-size: 1.8rem;
+    }
+    .bl_home .bl_main .section_become .section_faq .content .accordion-button,.bl_home .bl_main .section_become .section_faq .content .accordion-button:not(.collapsed),.bl_home .bl_main .section_become .section_faq .content .accordion-body {
+        font-size: 1rem;
+        padding: .8rem;
+    }
+    .bl_home .bl_main .section_where_to_buy .map .leaflet-popup-content-wrapper {
+        width: 250px !important;
+    }
 }
 
 @media only screen and (max-width: 479.98px) {
+    .bl_home .bl_footer .logo-footer img {
+        width: 75px;
+    }
+    .bl_home .bl_footer .menu-footer {
+        font-size: 11px;
+    }
+    
+    .bl_home .bl_footer .menu-footer ul li {
+        padding-left: 10px;
+    }
+    .bl_home .bl_footer .menu-footer ul li a {
+        font-size: 10px;
+    }
+    .bl_home .bl_footer .menu-footer .copyright {
+        padding-right: 10px;
+    }
+    .bl_home .bl_main .section_product .product_item_home.product_item_details .content .goto_buy a {
+        font-size: .7rem;
+    }
+    .bl_home .bl_main .section_product .product_item_home .content .goto_buy a {
+        font-size: 12px;
+        padding: 8px 6px;
+    }
+    
     
 }
 

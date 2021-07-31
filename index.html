@@ -32,7 +32,7 @@
             <!--== Banner ==-->
             <div class="section_banner" data-image-src="assets/images/bg/bg-1.jpg">
                 <div class="wrap-logo">
-                    <a href="#"><img src="assets/images/logo_white_300.png" alt="nom-logo"></a>
+                    <a href="index.html"><img src="assets/images/logo_white_300.png" alt="nom-logo"></a>
                     <h1>Nom</h1>
                 </div>
             </div>
@@ -41,21 +41,56 @@
             <div class="section_menu">
                 <div class="wrap_menu">
                     <div class="container">
-                        <div class="main_menu">
-                            <ul class="d-flex flex-wrap justify-content-center">
+                        <div id="offcanvas-mobile-menu"  class="main_menu offcanvas offcanvas-mobile-menu">
+                            <div class="mobile-menu-toggle d-lg-none">
+                                <a href="#offcanvas-mobile-menu" class="offcanvas-toggle">
+                                  <svg viewBox="0 0 800 600">
+                                    <path
+                                      d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200"
+                                      id="top"
+                                    ></path>
+                                    <path d="M300,320 L540,320" id="middle"></path>
+                                    <path
+                                      d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190"
+                                      id="bottom"
+                                      transform="translate(480, 320) scale(1, -1) translate(-480, -318)"
+                                    ></path>
+                                  </svg>
+                                </a>
+                            </div>
+                            <ul class="d-sm-flex flex-wrap justify-content-center">
                                 <li>
-                                    <a href="#">About us</a>
+                                    <a href="about-us.html">About us</a>
                                 </li>
                                 <li>
-                                    <a href="#">Products</a>
+                                    <a href="products.html">Products</a>
                                 </li>
                                 <li>
-                                    <a href="#">Where to buy</a>
+                                    <a href="where-to-buy.html">Where to buy</a>
                                 </li>
                                 <li>
-                                    <a href="#">Proteam</a>
+                                    <a href="proteam.html">Proteam</a>
                                 </li>
                             </ul>
+                        </div>
+                        <div class="logo_menu d-sm-none">
+                            <img src="assets/images/logo_170.png" alt="logo">
+                        </div>
+                        <div class="mobile-menu-toggle d-lg-none">
+                            <a href="#offcanvas-mobile-menu" class="offcanvas-toggle">
+                              <svg viewBox="0 0 800 600">
+                                <path
+                                  d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200"
+                                  id="top"
+                                ></path>
+                                <path d="M300,320 L540,320" id="middle"></path>
+                                <path
+                                  d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190"
+                                  id="bottom"
+                                  transform="translate(480, 320) scale(1, -1) translate(-480, -318)"
+                                ></path>
+                              </svg>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -92,10 +127,10 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="price mb-5" data-aos="fade-up" data-aos-duration="1100">
+                                    <div class="price mb-lg-5 mb-4" data-aos="fade-up" data-aos-duration="1100">
                                         $50.00 <span>($60 value)</span>
                                     </div>
-                                    <div class="description mb-5"  data-aos="fade-up" data-aos-duration="1100">
+                                    <div class="description mb-lg-5 mb-4"  data-aos="fade-up" data-aos-duration="1100">
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                                     </div>
     
@@ -125,7 +160,7 @@
                                     <div class="category mb-2">
                                         gift bundle 01/00/0 00
                                     </div>
-                                    <div class="name mb-2">
+                                    <div class="name mb-3">
                                         <a href="#">
                                             woo essentials set
                                         </a>
@@ -138,7 +173,7 @@
                             <!-- end item -->
                             <!-- item -->
                             <div class="swiper-slide item-product">
-                                <div class="thumb">
+                                <div class="thumb mb-3">
                                     <a href="#">
                                         <img src="assets/images/product/pro_thumb_2.png" alt="">
                                     </a> 
@@ -147,7 +182,7 @@
                                     <div class="category mb-2">
                                         gift bundle 01/00/0 00
                                     </div>
-                                    <div class="name mb-2">
+                                    <div class="name mb-3">
                                         <a href="#">
                                             woo essentials set
                                         </a>
@@ -160,7 +195,7 @@
                             <!-- end item -->
                             <!-- item -->
                             <div class="swiper-slide item-product">
-                                <div class="thumb">
+                                <div class="thumb mb-3">
                                     <a href="#">
                                         <img src="assets/images/product/pro_thumb_3.png" alt="">
                                     </a>
@@ -169,7 +204,7 @@
                                     <div class="category mb-2">
                                         gift bundle 01/00/0 00
                                     </div>
-                                    <div class="name mb-2">
+                                    <div class="name mb-3">
                                         <a href="#">
                                             woo essentials set
                                         </a>
@@ -182,7 +217,7 @@
                             <!-- end item -->
                             <!-- item -->
                             <div class="swiper-slide item-product">
-                                <div class="thumb">
+                                <div class="thumb mb-3">
                                     <a href="#">
                                         <img src="assets/images/product/pro_thumb_1.png" alt="">
                                     </a>
@@ -191,7 +226,7 @@
                                     <div class="category mb-2">
                                         gift bundle 01/00/0 00
                                     </div>
-                                    <div class="name mb-2">
+                                    <div class="name mb-3">
                                         <a href="#">
                                             woo essentials set
                                         </a>
@@ -204,7 +239,7 @@
                             <!-- end item -->
                             <!-- item -->
                             <div class="swiper-slide item-product">
-                                <div class="thumb">
+                                <div class="thumb mb-3">
                                     <a href="#">
                                         <img src="assets/images/product/pro_thumb_1.png" alt="">
                                     </a>
@@ -213,7 +248,7 @@
                                     <div class="category mb-2">
                                         gift bundle 01/00/0 00
                                     </div>
-                                    <div class="name mb-2">
+                                    <div class="name mb-3">
                                         <a href="#">
                                             woo essentials set
                                         </a>
@@ -226,7 +261,7 @@
                             <!-- end item -->
                             <!-- item -->
                             <div class="swiper-slide item-product">
-                                <div class="thumb">
+                                <div class="thumb mb-3">
                                     <a href="#">
                                         <img src="assets/images/product/pro_thumb_2.png" alt="">
                                     </a>
@@ -235,7 +270,7 @@
                                     <div class="category mb-2">
                                         gift bundle 01/00/0 00
                                     </div>
-                                    <div class="name mb-2">
+                                    <div class="name mb-3">
                                         <a href="#">
                                             woo essentials set
                                         </a>
@@ -248,7 +283,7 @@
                             <!-- end item -->
                             <!-- item -->
                             <div class="swiper-slide item-product">
-                                <div class="thumb">
+                                <div class="thumb mb-3">
                                     <a href="#">
                                         <img src="assets/images/product/pro_thumb_3.png" alt="">
                                     </a>
@@ -257,7 +292,7 @@
                                     <div class="category mb-2">
                                         gift bundle 01/00/0 00
                                     </div>
-                                    <div class="name mb-2">
+                                    <div class="name mb-3">
                                         <a href="#">
                                             woo essentials set
                                         </a>
@@ -282,10 +317,10 @@
 
         <footer class="bl_footer section-padding">
             <div class="container">
-                <div class="logo-footer">
+                <div class="logo-footer mb-2">
                     <img src="assets/images/logo-footer-w.png" alt="">
                 </div>
-                <div class="social-media">
+                <div class="social-media mb-4 mb-md-5">
                     <ul>
                         <li>
                             <a href="#"><i class="icofont-facebook"></i></a>
@@ -295,23 +330,23 @@
                         </li>
                     </ul>
                 </div>
-                <div class="menu-footer">
+                <div class="menu-footer d-flex justify-content-center">
                     <div class="copyright">
                         © 2021.NOM.JSC
                     </div>
-                    <ul>
+                    <ul class="d-flex">
                         <li>
                             <a href="#">
                                 customer policy
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="become-a-partner.html">
                                 become a partner
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="contact.html">
                                 contact
                             </a>
                         </li>
@@ -319,6 +354,7 @@
                 </div>
             </div>
         </footer>
+        <div class="offcanvas-overlay"></div>
 
     </div>
 
